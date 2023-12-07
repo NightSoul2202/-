@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+}
+body{
+    margin:0px; 
+    background-image: url("Galaxy-stars.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+H1{
+    margin: 3%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#MainDiv
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:100%;
+}
+
+.card {
+    height: 300px;;
+}
+
+.card-title {
+      margin-top: 15px;
+      color: white;
+    }
+    .card-body {
+      flex-grow: 1; /* Розширення до розміру контенту */
+      display: flex;
+      flex-direction: column;
+    }
+    .card-footer {
+      margin-top: auto; /* Розміщення внизу контейнера */
+    }
